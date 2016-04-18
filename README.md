@@ -2,6 +2,9 @@ Yet another implementation of Fortune's sweepline algorithm for Voronoi diagram.
 
 This implementation has not been tested thoroughly and should not be use in production settings. We recommend using instead [Raymond Hill's implementation](https://github.com/gorhill/Javascript-Voronoi/blob/master/LICENSE.md).
 
+## Demo
+http://bathlamos.github.io/voronoi/
+
 ## Usage
 Given a array of 2D points, which are themselves arrays, we can create a Voronoi diagram.
 ```
