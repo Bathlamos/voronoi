@@ -1,0 +1,43 @@
+{
+  "name": "faster-voronoi",
+  "version": "0.0.1",
+  "description": "Yet another implementation of Fortune's algorithm for Voronoi Diagrams",
+  "homepage": "https://github.com/Bathlamos/voronoi",
+  "keywords": [
+    "voronoi",
+    "diagram",
+    "tesselation",
+    "O(nlogn)",
+    "Fortune",
+    "sweepline"
+  ],
+  "author": "Philippe Legault",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Bathlamos/voronoi.git"
+  },
+  "main": "voronoi.js",
+  "devDependencies": {
+    "benchmark": "^1.0.0",
+    "eslint": "^1.10.3",
+    "faucet": "0.0.1",
+    "istanbul": "~0.4.1",
+    "tape": "^4.0.0"
+  },
+  "dependencies": {
+    "@tyriar/fibonacci-heap": "1.0.5"
+  },
+  "scripts": {
+    "cov": "istanbul cover test/test.js -x test/test.js"
+  },
+  "eslintConfig": {
+    "rules": {
+      "indent": 0,
+      "strict": 0,
+      "new-cap": 0
+    },
+    "env": {
+      "amd": true
+    }
+  }
+}
